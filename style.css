@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #3e23b4;
+    background-color: #5f1f1f;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -97,4 +97,17 @@ transform: scale(1.1);
 .info-img{
     width: 66px;
     height: 66px;
+}
+.tooltip{
+    color: #fff;
+    background-color: #0f0f0f;
+    padding: 10px 8px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 28px;
+    display: none;
+}
+.info:hover.tooltip{
+    display: inline;
+
 }
