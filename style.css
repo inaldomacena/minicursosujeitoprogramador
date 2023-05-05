@@ -117,3 +117,32 @@ transform: scale(1.1);
     display: inline;
 
 }
+.sobre{
+    max-width: 620px;
+    background-color: #6495ED;
+    padding: 24px 14px;
+    border: 1px solid #696969;
+    border-radius: 5px;
+
+
+}
+
+.sobre p{
+    color: #fff;
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+.button-calcular{
+    background-color: #18d89b;
+    height: 48px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 24px;
+    border-radius: 5px;
+}
