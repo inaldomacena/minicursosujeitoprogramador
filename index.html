@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="calculadora,alcool,gasolina">
+    <link rel="stylesheet" href="style.css">
+    <title>mini curso</title>
+</head>
+<body>
+    <main class="container">
+        <img class="logo" src="./assets/bomba.jpg" alt="logo da calculadora de combustivel"/>
+        <h1 class="title">Calculadora de Combustivel</h1>
+
+        <form class="form">
+            <label for="">Alcool (preço po litro)</label>
+            <input class="input" type="number" placeholder="0.00" min="1" step="0.01" required=""/> 
+
+            <label for=""> Gasolina (preço por litro)</label>
+            <input class="input" type ="number" placeholder="0.00" min="1" step="0.01" required =""/>
+
+            <input class="buttom" type="submit" value="Calcular"/>
+        </form>
+        <section class="result">
+            <span id="text-result">Compensar usar alcool</span>
+            <span>Alcool R$3.90</span>
+            <span>Gasolina R$ 6.80</span>
+        </section>
+    </main>
+    <div class="info">
+        <span class="tooltip">Veja o calculo</span>
+        <a href="#"></a>
+        <img class="info-img" src="./assets/interrogacao.jpg" alt="veja com é feito o calculo"/>
+    </div>
+</body>
+</html>
