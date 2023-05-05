@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #5f1f1f;
+    background-color: #6495ED;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -31,6 +31,7 @@ body{
 }
 .logo{
    max-width: 227px;
+   
 
 }
 .form label{
@@ -41,7 +42,7 @@ body{
 .input{
     width: 100%;
     height: 48px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 20px;
     padding: 0 14px;
     margin-top: 8px;
@@ -50,20 +51,21 @@ body{
 .buttom{
     width: 100%;
     height: 48px;
-    background-color: #119cff;
+    background-color: #bd5de9;
     cursor: pointer;
     border: 0;
-    border-radius: 4px;
+    border-radius: 5px;
     color: #fff;
     font-size: 22px;
     font-weight: bold;
 }
 .result{
-    background-color: #006321;
+    background-color: #e9ad0a;
     max-width: 520px;
     padding: 20px 20px;
     text-align: center;
     margin-top: 28px;
+    margin-bottom: 28px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -81,6 +83,10 @@ transform: scale(1.1);
    color: #fff;
    margin-bottom: 8px;
    
+}
+
+.hide{
+    display: none;
 }
 
 #text-result{
@@ -107,7 +113,7 @@ transform: scale(1.1);
     bottom: 28px;
     display: none;
 }
-.info:hover.tooltip{
+.info:hover  .tooltip{
     display: inline;
 
 }
